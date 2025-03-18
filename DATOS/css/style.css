@@ -97,4 +97,19 @@ body{
     box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; /* Efecto de resplandor amarillo */
   }
   
-  
+  /* Estilo para los botones */
+.button button {
+    background-color: yellow; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior para separar los botones */
+}
+
+.button button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}
